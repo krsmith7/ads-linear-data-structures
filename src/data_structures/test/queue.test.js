@@ -7,7 +7,7 @@ const dataStructures = [
 ]
 
 dataStructures.forEach(ds => {
-  xdescribe(ds, () => {
+  describe(ds, () => {
     let queue;
     beforeEach(() => {
       queue = new ds();
